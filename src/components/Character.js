@@ -14,7 +14,7 @@ const CharacterStyle = styled.div`
     }
 `
 
-//character
+//character data
 export default function Character(props){
     const {character} = props;
     return (
