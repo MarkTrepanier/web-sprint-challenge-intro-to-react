@@ -1,5 +1,5 @@
 export default{
     primary:'Gold',
     secondary: 'silver',
-    black: '#4f4f4f'
+    black: '#1f1f1f'
 }
