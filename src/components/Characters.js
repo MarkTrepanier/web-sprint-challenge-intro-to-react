@@ -3,7 +3,15 @@ import Character from './Character'
 
 export default function Characters(props){
     const {data}= props;
-    data.map(character=>{
-        return (<Character character={character}></Character>)
-    })
+    return (
+        <div>
+            {
+            data.map(character=>{
+                return (
+                    <Character character={character}></Character>
+                )
+            })
+            }
+        </div>
+    )
 }
