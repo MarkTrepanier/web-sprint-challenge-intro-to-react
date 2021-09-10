@@ -9,6 +9,7 @@ const CharacterStyle = styled.div`
     border:thick solid ${pr=>pr.theme.primary};
     background-color: ${pr=>pr.theme.black};
     border-radius: 25px;
+    margin-bottom: 5px;
     h1{
         color:${pr=>pr.theme.primary};
     }
